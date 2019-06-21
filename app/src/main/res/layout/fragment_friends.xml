@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/文字"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="搜索:"
+            android:textSize="28sp"/>
+
+        <EditText
+            android:id="@+id/friends_search"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入名字" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/friends_list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/search"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />
+    <com.teest.mrli.telephone.UI.Controller.SideBar
+        android:id="@+id/sideBar"
+        android:layout_width="50dp"
+        android:layout_height="400dp"
+        android:layout_alignParentRight="true"
+        android:paddingRight="10dp"
+        android:textColor="@color/colorAccent"
+        android:layout_marginTop="65dp"
+        android:textSize="15sp"/>
+
+
+</RelativeLayout>

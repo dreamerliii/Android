@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"><!--不给子控件第一相应-->
+
+
+    <TextView
+        android:id="@+id/friend_word"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E0E0E0"
+        android:textColor="#454545"
+        android:textSize="20sp"
+        android:padding="2dp"/>
+
+    <RelativeLayout
+        android:id="@+id/friend"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/friend_psg"
+        android:layout_width="50dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true">
+
+        <ImageView
+            android:id="@+id/friend_img"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+
+    <TextView
+        android:id="@+id/friend_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:textColor="#353535"
+        android:textSize="20sp"
+        android:layout_toRightOf="@+id/friend_psg"
+        android:layout_toEndOf="@+id/friend_psg" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>

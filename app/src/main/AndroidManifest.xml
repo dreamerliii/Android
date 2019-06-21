@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.teest.mrli.telephone">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/d20c91168f3e9b05fc08ed656a132b5"
+        android:label="通讯录"
+        android:roundIcon="@mipmap/d20c91168f3e9b05fc08ed656a132b5"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".UI.UI.FriendInfo"/>
+        <activity android:name=".UI.UI.NewUserActivity"/>
+        <activity android:name=".UI.UI.EditUserActivity"/>
+        <activity android:name=".UI.UI.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/><!--读联系人权限-->
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/><!--写联系人权限-->
+    <uses-permission android:name="android.permission.CALL_PHONE"/><!--打电话权限-->
+    <uses-permission android:name="android.permission.READ_CALL_LOG"/><!--读通话记录权限-->
+    <uses-permission android:name="android.permission.WRITE_CALL_LOG"/><!--写通话记录权限-->
+
+
+</manifest>

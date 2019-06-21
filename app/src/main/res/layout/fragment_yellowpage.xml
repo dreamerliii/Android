@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/urgency"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="紧急电话："
+        android:textSize="30sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/fire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="火警：119"
+        android:textSize="20sp"
+        android:layout_below="@+id/urgency"/>
+    <TextView
+        android:id="@+id/doctor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="救护车：120"
+        android:textSize="20sp"
+        android:layout_below="@+id/urgency"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/police"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="警察：110"
+        android:textSize="20sp"
+        android:layout_below="@+id/urgency"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/express"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="快递："
+        android:textSize="30sp"
+        android:layout_below="@+id/fire"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/sf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="顺丰：95338"
+        android:textSize="20sp"
+        android:layout_below="@+id/express"/>
+
+    <TextView
+        android:id="@+id/zt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="中通：95311"
+        android:textSize="20sp"
+        android:layout_below="@+id/express"
+        android:layout_alignLeft="@+id/doctor"
+        android:layout_alignStart="@+id/doctor" />
+
+    <TextView
+        android:id="@+id/yt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="圆通：95554"
+        android:textSize="20sp"
+        android:layout_below="@+id/express"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:id="@+id/food"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="外卖："
+        android:textSize="30sp"
+        android:layout_below="@+id/sf"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/Mcdonald"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="麦当劳：4008517517"
+        android:textSize="20sp"
+        android:layout_below="@+id/food"/>
+
+    <TextView
+        android:id="@+id/KFC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="肯德基：4008823823"
+        android:textSize="20sp"
+        android:layout_below="@+id/food"
+        android:layout_toRightOf="@+id/Mcdonald"
+        android:layout_toEndOf="@+id/Mcdonald" />
+
+
+</RelativeLayout>

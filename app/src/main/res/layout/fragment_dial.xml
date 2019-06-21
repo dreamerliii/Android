@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <RelativeLayout
+        android:id="@+id/re_display"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:clickable="true"
+        android:paddingLeft="12dp">
+
+        <TextView
+            android:id="@+id/tv_display"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:textSize="30sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/re_add"
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="#ffffff"
+        android:clickable="true"
+        android:paddingLeft="12dp">
+
+        <TextView
+            android:id="@+id/tv_add"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textColor="#000000"
+            android:textSize="16sp"/>
+    </RelativeLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/iv_one"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:src="@drawable/one" />
+
+            <ImageView
+                android:id="@+id/iv_two"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:layout_marginLeft="70px"
+                android:src="@drawable/two"/>
+
+            <ImageView
+                android:id="@+id/iv_three"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:layout_marginLeft="70px"
+                android:src="@drawable/three"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/iv_four"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:src="@drawable/four"/>
+
+            <ImageView
+                android:id="@+id/iv_five"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:layout_marginLeft="70px"
+                android:src="@drawable/five"/>
+
+            <ImageView
+                android:id="@+id/iv_six"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:layout_marginLeft="70px"
+                android:src="@drawable/six"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/iv_seven"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:src="@drawable/seven"/>
+
+            <ImageView
+                android:id="@+id/iv_eight"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:layout_marginLeft="70px"
+                android:src="@drawable/eight"/>
+
+            <ImageView
+                android:id="@+id/iv_nine"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:layout_marginLeft="70px"
+                android:src="@drawable/nine"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/iv_star"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:src="@drawable/star"/>
+
+            <ImageView
+                android:id="@+id/iv_zero"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:layout_marginLeft="70px"
+                android:src="@drawable/zero"/>
+
+            <ImageView
+                android:id="@+id/iv_sharp"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:layout_marginLeft="70px"
+                android:src="@drawable/sharp"/>
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center">
+            <ImageView />
+
+            <ImageView
+                android:id="@+id/iv_call"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:layout_marginLeft="70px"
+                android:src="@drawable/call"/>
+
+            <ImageView
+                android:id="@+id/iv_back"
+                android:layout_width="250px"
+                android:layout_height="250px"
+                android:layout_marginLeft="70px"
+                android:src="@drawable/back"/>
+
+        </TableRow>
+
+    </TableLayout>
+
+
+</LinearLayout>

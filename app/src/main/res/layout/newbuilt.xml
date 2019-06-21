@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/btn_login_pressed">
+        <TextView
+            android:id="@+id/newbuilt_cancel"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="            取消"
+            android:textColor="#fff"
+            android:textSize="25sp"/>
+        <TextView
+            android:id="@+id/newbuilt_save"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="          保存"
+            android:textColor="#fff"
+            android:textSize="25sp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:layout_toRightOf="@+id/newbuilt_cancel"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/newbuild_select"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="SIM卡1"
+        android:textColor="#FF000000"
+        android:textSize="20sp"/>
+
+
+
+    <TextView
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF000000"
+        android:textSize="18sp"
+        android:text="姓名"/>
+    <EditText
+        android:id="@+id/newbuild_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF000000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/warning_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:text=""
+        android:textSize="10sp"/>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF000000"
+        android:textSize="18sp"
+        android:text="手机号码"/>
+    <EditText
+        android:id="@+id/newbuilt_main_tel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:selectAllOnFocus="true"
+        android:textColor="#FF000000"
+        android:textSize="18sp"/>
+
+    <TextView
+        android:id="@+id/warning_phone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ff0000"
+        android:text=""
+        android:textSize="10sp"/>
+
+    <TextView
+        android:layout_marginTop="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:textColor="#FF000000"
+        android:text="电子邮箱"/>
+    <EditText
+        android:id="@+id/newbuild_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#FF000000"
+        android:textSize="18sp"/>
+
+</LinearLayout>
